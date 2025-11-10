@@ -2,10 +2,10 @@
 pipeline {
     agent any
 
-    environment {
+    /*environment {
         NETLIFY_SITE_ID = '83ecd942-52da-49fb-9303-f0c357b035cf'
         NETLIFY_AUTH_TOKEN = credentials('netlify-token')
-    }
+    }*/
 
     stages {
 
